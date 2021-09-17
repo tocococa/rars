@@ -35,5 +35,39 @@ import rars.riscv.hardware.AddressErrorException;
 
 /* A RARS tool used to interact with a serial device, via TX/RX ports and interrupts*/
 public class SerialTool extends AbstractToolAndApplication {
+    private static String heading = "Serial Tool";
+    private static String version = "Version 0.1 (Tomas Contreras)";
 
+    public SerialTool(){
+
+    }
+
+    public SerialTool(String title, String heading){
+
+    }
+
+    public static void main(String[] args){
+
+    }
+
+    @Override
+    public String getName(){
+        return "Serial Tool";
+    }
+
+    protected JComponent buildMainDisplayArea(){
+
+    }
+
+    // A daeomon that watches the serial interface for any changes
+    private void startSerialCmpDaemon{
+
+    }
+
+    // Overwrites the empty parent method, called when the tool is closed
+    protected void performSpecialClosingDuties() {
+        stop();
+    }
+
+    // ---------- Setial Controls ----------
 }

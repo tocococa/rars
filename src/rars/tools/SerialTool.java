@@ -33,7 +33,7 @@ import rars.riscv.hardware.InterruptController;
 import rars.riscv.hardware.ControlAndStatusRegisterFile;
 import rars.riscv.hardware.AddressErrorException;
 
-/* A RARS tool used to interact with a serial device, via i/o operations and interrupts*/
-public class TimerTool extends AbstractToolAndApplication {
-    
+/* A RARS tool used to interact with a serial device, via TX/RX ports and interrupts*/
+public class SerialTool extends AbstractToolAndApplication {
+
 }
